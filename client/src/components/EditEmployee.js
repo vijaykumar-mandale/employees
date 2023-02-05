@@ -51,7 +51,7 @@ const EditEmployee = () => {
         className="text-center text-white p-2 m-2"
         style={{ backgroundColor: "blue" }}
       >
-        Edit User
+        Edit Employee
       </h2>
 
       <form className="p-2 m-2 needs-validation" onSubmit={handleUpdate}>

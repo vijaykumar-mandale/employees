@@ -40,7 +40,7 @@ const AddEmployee = () => {
         className="text-center text-white p-2 m-2"
         style={{ backgroundColor: "blue" }}
       >
-        Add New User
+        Add New Employee
       </h2>
 
       <form className="p-2 m-2 needs-validation" onSubmit={handleSubmit}>
