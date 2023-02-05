@@ -12,6 +12,10 @@ app.use(cors());
 
 app.use(express.json());
 
+// Function to serve all static files
+// inside public directory.
+app.use(express.static('public')); 
+
 // Routes
 app.use("/api/v1", userRoutes);
 

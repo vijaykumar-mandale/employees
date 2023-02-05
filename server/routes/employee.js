@@ -15,6 +15,9 @@ const storage = multer.diskStorage({
 const upload = multer({storage: storage});
 
 router.get("/employees", employeeController.getAllEmployees);
+router.get("/employees/:id", employeeController.getEmployeeDetail);
+router.put("/employees/:id", upload.single("photo"), employeeController.updateEmployee);
 router.post("/employees", upload.single("photo"), employeeController.createNewEmployee);
+router.delete("/employees/:id", employeeController.deleteEmployee);
 
 export default router;
