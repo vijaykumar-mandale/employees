@@ -33,7 +33,7 @@ const Home = () => {
       </h2>
       <Link to={"/add"}>
         <button className="btn btn-primary">
-          <i className="fa fa-home" />
+          <i className="fa fa-user" />
           &nbsp; Add Employee
         </button>
       </Link>
